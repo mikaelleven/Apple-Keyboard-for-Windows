@@ -32,22 +32,25 @@ SetWorkingDir %A_ScriptDir%
 Menu, TRAY, Tip, Apple Keyboard for Windows
 
 
-ConfigFilename = AKfoW.ini
-SectionName = AKfoW
+; ConfigFilename = AKfoW.ini
+; SectionName = AKfoW
 
-IniRead, RunStandAlone, %ConfigFilename%, %SectionName%, RunStandAlone, true
+; IniRead, RunStandAlone, %ConfigFilename%, %SectionName%, RunStandAlone, true
 
-IniWrite, %RunStandAlone%, %ConfigFilename%, %SectionName%, RunStandAlone
+; IniWrite, %RunStandAlone%, %ConfigFilename%, %SectionName%, RunStandAlone
 
 
-ExpertModeMenuHandler:
+; ExpertModeMenuHandler:
 
-return
+; return
 
-Menu, TRAY, NoMainWindow
-Menu, TRAY, NoStandard
+; Menu, TRAY, NoMainWindow
+; Menu, TRAY, NoStandard
 
-Menu, TRAY, add, "Test", ExpertModeMenuHandler
+; Menu, TRAY, add, "Test", ExpertModeMenuHandler
+; Menu, TRAY, Default, Restart UAWKS
+
+; Menu, TRAY, UseErrorLevel, On
 
 
 ; Fix Cmd+Tab for Windows
