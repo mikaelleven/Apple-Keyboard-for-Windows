@@ -6,7 +6,8 @@ _Apple Keyboard for Windows_ is a AutoHotKey script that makes a Apple Keyboard 
 _AKfoW_ brings the following commands and shortcuts to your Windows computer, just like you're used to from OS X:
 
 - **Cmd ⌘ + C/V/X** - Copy, Paste and Cut
-- **Cmd ⌘ + Arrow key** - Home (left) / End (right) / Page Up (up) / Pade Down (down)
+- **Cmd ⌘ + Left/Right arrow ← →** - Home (left ←) / End (right →)
+- **Cmd ⌘ + Up/Down arrow ↑ ↓** - Page Up/Down
 - **Cmd ⌘ + Z** - Undo
 - **Cmd ⌘ + T** - Open new tab
 - **Cmd ⌘ + W** - Close current window/tab
@@ -14,15 +15,11 @@ _AKfoW_ brings the following commands and shortcuts to your Windows computer, ju
 - **Cmd ⌘ + F7/F8/F9** - Media keys (Previous track, Play/pause, Next track)
 - **Cmd ⌘ + F10/F11/F12** - Volume control (Mute, Lower volume, Raise volume)
 - **F13** - Take screenshot
-- **Alt ⥫ + 8/9** - Square brackets (or curly brackets with the _Shift_ modifier key)
+- **Alt ⋜ + 8/9** - Square brackets (or curly brackets with the _Shift_ modifier key)
 
 **Snap window**
 There is also a _HyperDock special key-kombo_ (both to mimic the same behavior as _HyperDock_ on Mac but also to make up for the Cmd + Left/Right being mapped as Home/End instead of it's default behavior).
-- **Cmd ⌘ _+ Shift ⇧ + Alt ⋜_ + Arrow key** - Snaps current window to any of the four edges of the screen (works as the default Win + Arrow key feature in Windows)
-
-↑↓←→→➝
-➡︎➡︎⬅︎➡➡︎➡︎➡➡︎➡︎➡︎➡➡︎⬇︎⬆︎⬅︎➡︎➡︎➡︎➡︎➡︎➡︎➧➡︎➔➡︎➡︎➡︎➡︎➡︎➡︎➡︎
-⋜⥫⇧⇧⇧
+- **Cmd ⌘ _+ Shift ⇧ + Alt ⋜_ + Arrow key ←↑→↓** - Snaps current window to any of the four edges of the screen (works as the default Win + Arrow key feature in Windows)
 
 **Media playback and volume control**
 This script also enables the media keys (previous track, play/pause, next track and volume buttons). Use the Cmd key + any of the F7-F12 keys to control media playback. And unlike AWK (see below) these media keys works with all applications, like Spotify, and not only iTunes.
