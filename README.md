@@ -20,6 +20,8 @@ _AKfoW_ brings the following commands and shortcuts to your Windows computer, ju
 There is also a _HyperDock special key-kombo_ (both to mimic the same behavior as _HyperDock_ on Mac but also to make up for the Cmd + Left/Right being mapped as Home/End instead of it's default behavior).
 - **Cmd ⌘ _+ Shift ⇧ + Alt ⋜_ + Arrow key** - Snaps current window to any of the four edges of the screen (works as the default Win + Arrow key feature in Windows)
 
+↑↓←→→➝
+➡︎➡︎⬅︎➡➡︎➡︎➡➡︎➡︎➡︎➡➡︎⬇︎⬆︎⬅︎➡︎➡︎➡︎➡︎➡︎➡︎➧➡︎➔➡︎➡︎➡︎➡︎➡︎➡︎➡︎
 ⋜⥫⇧⇧⇧
 
 **Media playback and volume control**
